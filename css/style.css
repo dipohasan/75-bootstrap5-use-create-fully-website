@@ -1,0 +1,265 @@
+body,h1,h2,h3,h4,h5,h6,span,p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* navbar section css start */
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 25px;
+}
+.navbar-brand span {
+    width: 40px;
+    height: 43px;
+    background: #6278DF;
+    color: white;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 27px;
+    position: relative;
+    top: 4px;
+}
+.nav-link.active {
+    margin-left: 93px;
+}
+.nav-item {
+    margin: 0px 12px;
+    font-size: 16px;
+}
+
+/* navbar section css end */
+
+
+/* slider-section css start */
+
+.slider-section{
+    background: url(../img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+
+
+.slider-caption {
+    color: white;
+    width: 600px;
+    margin: 0px auto;
+}
+
+.slider-caption h2{
+    font-size:46px;
+    margin-bottom: 50px;
+}
+ .slider-caption h4{
+     margin-bottom: 35px;
+ }
+ .button .btn {
+    color: white;
+    background: #5BA533;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px 36px;
+}
+
+.slider-caption .form-control {
+    padding: 18px 26px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+ 
+/* slider-section css end */
+
+
+/* about-section css start */
+
+.about-section{
+    background: #F7F9FF;
+}
+.about-text-left {
+    margin-top: 120px;
+}
+
+.about-section .lead{
+    font-size: 25px;
+    line-height: 2.7rem;
+}
+/* about-section css end */
+
+/* feature section css start */
+
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-test-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+
+/* feature section css end */
+
+
+/* portfolio section css start */
+
+.protfolio-section{}
+
+.portfolio-item{}
+.portfolio-item a{
+    display: block;
+    position: relative;
+}
+.portfolio-item a::after{
+    content: "";
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(98, 120, 223, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.portfolio-item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* portfolio section css end */
+.min-section-bg{
+    background-color: #f7f9ff;
+}
+
+/* pricing-section css start */
+
+.pricing-section{}
+
+.pricing-item {
+    padding: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 45px;
+}
+.pricing-item ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span {
+    width: 40px;
+    display: inline-block;
+    font-weight: bold;
+    color: #657BE0;
+    font-size: 25px;
+}
+
+.pricing-item-bottom a{
+    border-color: #657be0;
+    padding: 14px 30px;
+    font-size: 22px;
+    color: #657BE0;
+    border-width: 2px;
+    box-shadow: 2.5px 4.33px 30px 0px rgb(64 87 191 / 20%);
+}
+.pricing-item-bottom:hover a{
+    background: #657be0;
+    color: white;
+    border-color: white;
+}
+/* pricing-section css end */
+
+
+/* testimonial-section css start */
+.author-info{
+    width: 230px;
+    margin: auto;
+}
+.author-info img{
+    width: 85px;
+    margin-right: 18px;
+    float: left;
+}
+.user-details {
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+}
+
+/* testimonial-section css end */
+
+
+/* about-section css start */
+
+.about-item .card {
+    margin-top: 150px;
+}
+.about-section .lead {
+    font-size: 25px;
+    line-height: 2.7rem;
+    margin-bottom: 150px;
+}
+.about-item .card{}
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+/* about-section css end */
+
+
+
+/* content-section css start */
+
+.card {
+    box-shadow: 2.5px 4.33px 30px 0px rgb(64 87 191 / 20%);
+    padding: 40px;
+}
+.card-body button{
+    color:white;
+}
+
+
+/* content-section css end */
